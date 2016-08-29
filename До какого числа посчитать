@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<script type = "text/javascript">
+	var number = +prompt ("До какого числа посчитать?");
+	var sum = 0
+	var i = 0
+	while (i <= number) {
+		sum = sum + i;
+		i++;
+	}
+	alert(" Сумма всех чисел до: " + number + " Равняется: " + sum)
+</script>
